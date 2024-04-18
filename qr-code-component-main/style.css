@@ -1,0 +1,41 @@
+body {
+    background-color: #D5E1EF;
+    height: 100vh;
+    width: 100%;
+    font-family: 'Outfit';
+    overflow:hidden;
+}
+
+.barcode-parent-container {
+    border: 1px solid white;
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    position: absolute;
+    background-color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    width: 320px;
+}
+
+.barcode-div {
+    padding: 5px;
+    text-align: center;
+}
+
+.barcode-div>img {
+    border-radius: 20px;
+    width: 100%;
+}
+
+.barcode-div-title {
+    font-weight: bolder;
+    color: #1F314F;
+    font-size: 25px;
+}
+
+.barcode-div-subtitle {
+    color: gray;
+    font-size: 18px;
+}
